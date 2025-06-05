@@ -7,7 +7,7 @@ export default function NavBar(){
             <div className='border-b-1 border-b-gray-400 h-auto flex items-center'>
                 <ul className='flex justify-between items-center w-full mx-5'>
                     <li className=''>
-                        <Link href='/landing-page' className='flex items-center font-extrabold text-2xl tracking-tight'>
+                        <Link href='/home' className='flex items-center font-extrabold text-2xl tracking-tight'>
                             <Image src={'/chattrLogo.png'} alt='Chattr Logo' width={70} height={60}></Image>
                             <p>Chattr</p>
                         </Link>

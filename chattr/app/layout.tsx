@@ -17,8 +17,14 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <NavBar />
-        <SideNavBar/>
-        {children}
+        <div className="flex">
+            <SideNavBar/>
+            <div className="flex justify-center items-center w-full">
+              {children}
+            </div>
+            
+        </div>
+        
       </body>
     </html>
   );
