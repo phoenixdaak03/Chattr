@@ -7,7 +7,7 @@ export default function NavBar(){
             <div className='border-b-1 border-b-gray-400 h-auto flex items-center'>
                 <ul className='flex justify-between items-center w-full mx-5'>
                     <li className=''>
-                        <Link href='/home' className='flex items-center font-extrabold text-2xl tracking-tight'>
+                        <Link href='/chats' className='flex items-center font-extrabold text-2xl tracking-tight'>
                             <Image src={'/chattrLogo.png'} alt='Chattr Logo' width={70} height={60}></Image>
                             <p>Chattr</p>
                         </Link>
@@ -18,12 +18,12 @@ export default function NavBar(){
                     <div className='flex justify-between space-x-4 text-sm font-semibold'>
                         <li>
                             <Link href={"/get-app"}>
-                                <button className='bg-gray-200 h-10 rounded-3xl w-auto px-5 transition duration-700 hover:bg-gray-300'>📲 Get App</button>
+                                <button className='bg-gray-200 h-full rounded-3xl w-full px-5 transition duration-700 hover:bg-gray-300 cursor-pointer'>📲 Get App</button>
                             </Link>
                         </li>
                         <li>
                             <Link rel="stylesheet" href="/login">
-                                <button className='bg-green-300 h-10 rounded-3xl w-auto px-5 transition duration-700 hover:bg-green-400'>Log In</button>
+                                <button className='bg-green-300 h-10 rounded-3xl w-auto px-5 transition duration-700 hover:bg-green-400 cursor-pointer'>Log In</button>
                             </Link>
                         </li>
                     </div>
