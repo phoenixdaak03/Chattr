@@ -3,8 +3,8 @@ import Image from 'next/image';
 
 export default function NavBar(){
     return(
-        <nav>
-            <div className='border-b-1 border-b-gray-400 h-auto flex items-center'>
+        <nav className='fixed top-0 left-0 bg-white'>
+            <div className='border-b-1 border-b-gray-400 h-20 w-screen flex items-center'>
                 <ul className='flex justify-between items-center w-full mx-5'>
                     <li className=''>
                         <Link href='/chats' className='flex items-center font-extrabold text-2xl tracking-tight'>

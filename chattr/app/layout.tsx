@@ -17,9 +17,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <NavBar />
-        <div className="flex">
+        <div className="flex h-screen mt-20">
             <SideNavBar/>
-            <div className="flex justify-center items-center w-full">
+            <div className="ml-75 flex justify-center items-center w-full">
               {children}
             </div>
             
